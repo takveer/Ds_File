@@ -30,7 +30,7 @@ int main()
 {
     char infx[50],pofx[50],ch,elem;
     int i=0,k=0;
-    cout<<"Read the Infix Expression\n";
+    cout<<"Read Infix Expression\n";
     cin>>infx;
     push('#');
     while( (ch=infx[i++]) != '\0')
